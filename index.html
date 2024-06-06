@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Ns City Scrapper</title>
+  <link rel="icon" type="image/x-icon" href="img/tab-icon.png">
+  <script type='text/javascript'
+    src='https://www.bing.com/api/maps/mapcontrol?key=YOUR_BING_MAPS_API_KEY&callback=loadMapScenario' async
+    defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="mainLoader">
+    <div class="main-loader-part">
+      NS
+    </div>
+    <div class="loadingAnim loadingAnim1"></div>
+    <div class="loadingAnim loadingAnim2"></div>
+  </div>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="LogoPart">
+        <img height="34px" src="img/logo.svg" alt="">
+        <div class="rightPart">
+          <a href="#" class="Serchicon">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314"></path>
+            </svg></a>
+          <div class="hamburger"></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="sideNavbar">
+      <div class="top">
+        <div class="cross"></div>
+      </div>
+      <nav>
+        <a href="#cityInfo">Information</a>
+        <a href="#hotel">Hotel</a>
+        <a href="#news">News</a>
+        <a href="#video">Video</a>
+        <a href="#photo">Photos</a>
+        <a href="#weather">Weather</a>
+        <a href="#link">Quick Links</a>
+      </nav>
+    </div>
+  </header>
+  <!-- <section class="SerchBoxContainer " id="Serch"> -->
+  <section class="SerchBoxContainer searchBoxActive" id="Serch"> 
+    <img src="./img/logo.svg" alt="" class="SearchActiveLogo"> 
+    <p id="greetings"></p>
+    <div class="search-Main-box">
+      <div class="search-box">
+        <div class="SearchInput-group">
+          <div class="svg-section">
+            <svg class="serchIcon" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314" />
+            </svg>
+            <div class="loader"></div>
+          </div>
+          <input placeholder="Enter City Name" type="search" autocomplete="off" class="SearchBar" id="searchBox">
+          <div class="svg-section enter-key">
+            <img src="./img/enter.png" alt="">
+          </div>
+          <ul id="results"></ul>
+        </div>
+        </div><button onclick="SearchBtn()" class="SearchBtn">Search</button>
+      </div>
+  </section>
+
+  <div class="slideshow-container">
+    <div class="loader-img"></div>
+    <div class="in-slideshow-container">
+      <div class="mySlides fade">
+        <div class="banner-detail">
+        </div>
+      </div>
+    </div> 
+
+
+    <div class="dot-section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <div class="navigate">
+      <a class="prev" onclick="prevSlide()">&#10094;</a>
+      <a class="next" onclick="showSlides()">&#10095;</a>
+    </div>
+  </div>
+  <section class="main">
+    <div class="photo-detail"></div>
+    <div class="CityInfoCardIn cityDetail">
+
+    </div>
+    </div>
+    <div class="part main-upper">
+      <div class="in-part map-part" id="myMap"></div>
+      <div class="in-part main-detail-part">
+        <div class="box-shadow"></div>
+        <div class="weather-icon-main">
+          <img src="./svg/overcast-night-fog.svg" alt="" class="MainWeatherIcon">
+        </div>
+        <div class="main-detail">
+          <h1 class="temp"></h1>
+          <p class="cond"></p>
+        </div>
+      </div>
+    </div>
+    <div class="part secondary-part">
+      <div class="secondory-detail-tiny">
+        <div class="in-part secondory-tiny-card">
+          <div class="card-header">
+            <svg fill="#ffffff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+              xml:space="preserve" stroke="#ffffff">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472 c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z">
+                </path>
+                <polygon fill-rule="evenodd" clip-rule="evenodd"
+                  points="384,256 352,224 352,240 272,240 272,160 288,160 256,128 224,160 240,160 240,240 160,240 160,224 128,256 160,288 160,272 240,272 240,352 224,352 256,384 288,352 272,352 272,272 352,272 352,288 ">
+                </polygon>
+              </g>
+            </svg>
+            <h3>latitude</h3>
+          </div>
+          <div class="Contex">
+            <h1 class="latitude"></h1>
+          </div>
+        </div>
+        <div class="in-part secondory-tiny-card">
+          <div class="card-header">
+            <svg fill="#ffffff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+              xml:space="preserve" stroke="#ffffff">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472 c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z">
+                </path>
+                <polygon fill-rule="evenodd" clip-rule="evenodd"
+                  points="384,256 352,224 352,240 272,240 272,160 288,160 256,128 224,160 240,160 240,240 160,240 160,224 128,256 160,288 160,272 240,272 240,352 224,352 256,384 288,352 272,352 272,272 352,272 352,288 ">
+                </polygon>
+              </g>
+            </svg>
+            <h3>longitude</h3>
+          </div>
+          <div class="Contex">
+            <h1 class="longitude"></h1>
+          </div>
+        </div>
+      </div>
+      <div class="secondory-detail-tiny">
+        <div class="in-part secondory-tiny-card">
+          <div class="card-header">
+            <svg viewBox="0 0 48.001 48.001" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path id="area"
+                  d="M189,471a5.005,5.005,0,0,1-5-5V428a5.006,5.006,0,0,1,5-5h38a5.006,5.006,0,0,1,5,5v38a5.005,5.005,0,0,1-5,5Zm27-2h11a3,3,0,0,0,3-3V455H216Zm-15,0h14V455H201Zm-15-3a3,3,0,0,0,3,3h11V455H186Zm30-12h14V440H216Zm-4.293,0H215v-3.292Zm-4,0H211l-.353-.353,4-4L215,450v-3.293Zm-4,0H207l-.354-.353,8-8L215,446v-3.293ZM201,454h2l-.353-.353,12-12L215,442v-2h-.29a6.88,6.88,0,0,0,.219-1H215V425H201v14h.071a7.047,7.047,0,0,0,.219,1H201v3.292l1.271-1.27a7.068,7.068,0,0,0,.635.779l-1.552,1.553L201,444v3.293l3.331-3.331a6.88,6.88,0,0,0,.932.482l-3.91,3.91L201,448v3.292l6.073-6.073-.848-2.545a5,5,0,1,1,3.55,0L208,448l-.573-1.72-6.073,6.073L201,452Zm-15,0h14V440H186Zm19-16a3,3,0,1,0,3-3A3,3,0,0,0,205,438Zm11,1h14V428a3,3,0,0,0-3-3H216Zm-30-11v11h14V425H189A3,3,0,0,0,186,428Z"
+                  transform="translate(-184 -423)" fill="#ffffff"></path>
+              </g>
+            </svg>
+            <h3>Area</h3>
+          </div>
+          <div class="Contex">
+            <h1 class="area"></h1>
+          </div>
+        </div>
+        <div class="in-part secondory-tiny-card">
+          <div class="card-header">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <circle opacity="0.4" cx="15" cy="6" r="3" fill="#ffffff"></circle>
+                <ellipse opacity="0.4" cx="16" cy="17" rx="5" ry="3" fill="#ffffff"></ellipse>
+                <circle cx="9.00098" cy="6" r="4" fill="#ffffff"></circle>
+                <ellipse cx="9.00098" cy="17.001" rx="7" ry="4" fill="#ffffff"></ellipse>
+              </g>
+            </svg>
+            <h3>Population</h3>
+          </div>
+          <div class="Contex">
+            <h1 class="population"></h1>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <section id="cityInfo">
+      <h1 class="gsapTitle">Comprehensive</h1>
+      <div class="cityWikiHead">
+        <button data-card="financeCard" class="trigger financeCardBtn">Finance</button>
+        <button data-card="GeographyCard" class="trigger GeographyCardBtn">Geography</button>
+        <button data-card="DemographicsCard" class="trigger DemographicsCardBtn">Demographics</button>
+        <button data-card="HistoryCard" class="trigger HistoryCardBtn">History</button>
+        <button data-card="AirportCard" class="trigger AirportCardBtn">Airport</button>
+      </div>
+      <div class="cityWikiCardSection">
+        <div class="cityWikiInfoCard card financeCard">
+          <div class="infoHeader">
+            <svg viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M8.692 12.266V6.692h1.616v5.574l-.808-.824zm4.347 2.23V2.692h1.615v10.189zM4.307 16.64v-5.947h1.615v4.331zm-.116 3.911l5.297-5.296l3.55 3.05l6.753-6.754H17.5v-1h4v4h-1v-2.292l-7.438 7.438l-3.55-3.05l-3.904 3.904z">
+              </path>
+            </svg>
+            Finance
+          </div>
+          <div class="CityInfoCardIn EconomyCityInfo">
+          </div>
+        </div>
+        <div class="cityWikiInfoCard card GeographyCard">
+          <div class="infoHeader">
+            <svg viewBox="0 0 48 48">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                d="M4 12.9v27.47l13.34-5.27l13.32 5.27L44 35.1V7.63L30.66 12.9L17.34 7.63ZM21.33 30h5.99m-5.99-11.98h5.99m-5.99 5.99h3.91m-3.91-5.99V30">
+              </path>
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                d="M18 22a4 4 0 0 0-4.23-4A4.17 4.17 0 0 0 10 22.25V26a4 4 0 0 0 4 4h0a4 4 0 0 0 4-4h-4m24-4a4 4 0 0 0-4.24-4A4.17 4.17 0 0 0 30 22.25V26a4 4 0 0 0 4 4h0a4 4 0 0 0 4-4z">
+              </path>
+            </svg>Geography
+          </div>
+          <div class="CityInfoCardIn GeographyCityInfo">
+          </div>
+        </div>
+        <div class="cityWikiInfoCard card DemographicsCard">
+          <div class="infoHeader">
+            <svg viewBox="0 0 100 100">
+              <path fill="currentColor"
+                d="M27.953 46.506a21.02 21.02 0 0 1-2.117-9.192c0-1.743.252-3.534.768-5.468c.231-.87.521-1.702.847-2.509c-1.251-.683-2.626-1.103-4.101-1.103c-5.47 0-9.898 5.153-9.898 11.517c0 4.452 2.176 8.305 5.354 10.222L5.391 56.217c-.836.393-1.387 1.337-1.387 2.392v10.588c0 1.419.991 2.569 2.21 2.569h7.929v-11.11c0-3.237 1.802-6.172 4.599-7.481l10.262-4.779a20.2 20.2 0 0 1-1.051-1.89m32.184-11.705h34.092V34.8l.006.001c.973 0 1.761-.789 1.761-1.761v-6.431c0-.973-.789-1.761-1.761-1.761l-.006.001v-.005H56.133a20.013 20.013 0 0 1 3.526 7.435c.215.889.371 1.72.478 2.522m35.859 31.635c0-.973-.789-1.761-1.761-1.761l-.006.001v-.005H72.007v9.089c0 .293-.016.582-.045.867h22.267v-.001l.006.001c.973 0 1.761-.789 1.761-1.761zm-1.761-21.674l-.006.001v-.005H58.944c-.159.419-.327.836-.514 1.249a20.258 20.258 0 0 1-1.224 2.297l10.288 4.908a7.67 7.67 0 0 1 2.078 1.503h24.657v-.001l.006.001c.973 0 1.761-.789 1.761-1.761v-6.431c0-.973-.789-1.761-1.761-1.761">
+              </path>
+              <path fill="currentColor"
+                d="m65.323 57.702l-11.551-5.51l-4.885-2.33c2.134-1.344 3.866-3.418 5-5.917a16.045 16.045 0 0 0 1.435-6.631c0-1.348-.213-2.627-.512-3.863c-1.453-5.983-6.126-10.392-11.736-10.392c-5.504 0-10.106 4.251-11.648 10.065c-.356 1.333-.602 2.72-.602 4.189c0 2.552.596 4.93 1.609 7c1.171 2.4 2.906 4.379 5.018 5.651l-4.678 2.178l-11.926 5.554c-1.037.485-1.717 1.654-1.717 2.959V73.76c0 1.756 1.224 3.181 2.735 3.181h42.417c1.511 0 2.735-1.424 2.735-3.181V60.656c.002-1.301-.668-2.458-1.694-2.954">
+              </path>
+            </svg>
+            Demographics
+          </div>
+          <div class="CityInfoCardIn DemographicsCityInfo">
+          </div>
+        </div>
+        <div class="cityWikiInfoCard card HistoryCard">
+          <div class="infoHeader">
+            <svg viewBox="0 0 24 24">
+              <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <path
+                  d="M10 20.777a9 9 0 0 1-2.48-.969M14 3.223a9.003 9.003 0 0 1 0 17.554m-9.421-3.684a9 9 0 0 1-1.227-2.592M3.124 10.5c.16-.95.468-1.85.9-2.675l.169-.305m2.714-2.941A9 9 0 0 1 10 3.223">
+                </path>
+                <path d="M12 8v4l3 3"></path>
+              </g>
+            </svg>History
+          </div>
+          <div class="CityInfoCardIn HistoryCityInfo">
+          </div>
+        </div>
+        <div class="cityWikiInfoCard airportWikiInfoCard AirportCard card">
+          <div class="infoHeader"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M14.97 5.92a.967.967 0 0 0-1.18-.68l-3.4.91l-4.44-4.12l-1.23.33l2.66 4.59l-3.19.85l-1.26-.98l-.93.25l1.66 2.88l10.62-2.84c.52-.15.82-.68.69-1.19M21 10l-1 2h-5l-1-2l1-1h2V7h1v2h2zm1 10v2H2v-2h13v-7h5v7z">
+              </path>
+            </svg>Airport</div>
+          <div class="CityInfoCardIn AirportCityInfo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="carsSectionAll" id="hotel">
+    <div class="sliderTitle"><h1>Hotels</h1>
+    <p>Top hotel From the </p><a href="#">Booking.com (Rapid Api)</a></div>
+    <div class="cardSlider" id="cardSlider1">
+      <button class="prev" id="cardSButton" onclick="cardS('cardSlider1', -1)">&#10094;</button>
+      <div class="card-section">
+        <div class="cardSlides hotel-img-section">
+        </div>
+      </div>
+
+      <button class="next" id="cardSButton" onclick="cardS('cardSlider1', 1)">&#10095;</button>
+    </div></div>
+
+    <div class="carsSectionAll" id="news">
+    <div class="sliderTitle"><h1>News</h1>
+       <p>Top News From the </p><a href="#">newsdata.io</a></div>
+    <div class="cardSlider" id="cardSlider2">
+      <button class="prev" id="cardSButton" onclick="cardS('cardSlider2', -1)">&#10094;</button>
+      <div class="card-section">
+        <div class="cardSlides news-card-section">
+        </div>
+      </div>
+      <button class="next" id="cardSButton" onclick="cardS('cardSlider2', 1)">&#10095;</button>
+    </div>
+    </div></div>
+    <div class="carsSectionAll" id="video">
+    <div class="sliderTitle"><h1>Videos</h1>
+       <p>Top Video From the</p> <a href="#">yt dataV2.com (Rapid Api)</a></div>
+    <div class="cardSlider" id="cardSlider3">
+      <button class="prev" id="cardSButton" onclick="cardS('cardSlider3', -1)">&#10094;</button>
+      <div class="card-section">
+        <div class="cardSlides yt-video-container">
+        </div>
+      </div>
+      <button class="next" id="cardSButton" onclick="cardS('cardSlider3', 1)">&#10095;</button>
+    </div></div>
+
+    <div class="imgSectionPhotos" id="photo"></div>
+
+    <div class="moreDetail"> 
+    </div>
+
+
+    <section class="weather-part" id="weather">
+      <div class="part secondary-part">
+
+        <div class="secondory-detail-tiny">
+          <div class="in-part secondory-tiny-card">
+            <div class="card-header">
+              <img src="svg/barometer.svg" alt="">
+              <h3>Temperature</h3>
+            </div>
+            <div class="Contex">
+              <h1 id="CurrentTemp"></h1>
+            </div>
+          </div>
+
+          <div class="in-part secondory-tiny-card">
+            <div class="card-header">
+              <img src="svg/thermometer.svg" alt="">
+              <h3>Feels like</h3>
+            </div>
+            <div class="Contex">
+              <div class="highAndLow">
+                <div>
+                  <img src="svg/pressure-high.svg" alt="">
+                  <h1 id="highTemp"></h1>
+                </div>
+                <div>
+                  <img src="svg/pressure-low.svg" alt="">
+                  <h1 id="lowTemp"></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="secondory-detail-tiny">
+          <div class="in-part secondory-tiny-card">
+            <div class="card-header">
+              <img src="svg/humidity.svg" alt="">
+              <h3>Humidity</h3>
+            </div>
+            <div class="Contex">
+              <h1 id="Humidity"></h1>
+            </div>
+          </div>
+          <div class="in-part secondory-tiny-card">
+            <div class="card-header">
+              <img src="svg/windsock.svg" alt="">
+              <h3>Wind</h3>
+            </div>
+            <div class="Contex">
+              <h1 id="Wind"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="part secondary-part">
+        <div class="secondory-detail-tiny">
+          <div class="in-part secondory-tiny-card">
+            <div class="card-header">
+              <img src="svg/smoke-particles.svg" alt="">
+              <h3>Visibility</h3>
+            </div>
+            <div class="Contex">
+              <h1 id="visibility"></h1>
+            </div>
+          </div>
+          <div class="in-part secondory-tiny-card">
+            <div class="card-header">
+              <img src="svg/barometer.svg" alt="">
+              <h3>Pressure</h3>
+            </div>
+            <div class="Contex">
+              <h1 id="pressure"></h1>
+            </div>
+          </div>
+        </div>
+        <div class="secondory-detail-tiny">
+          <div class="in-part secondory-tiny-card">
+            <div class="card-header">
+              <img src="svg/sunrise.svg" alt="">
+              <h3>Sunrise</h3>
+            </div>
+            <div class="Contex">
+              <h1 id="Sunrise"></h1>
+            </div>
+          </div>
+          <div class="in-part secondory-tiny-card">
+            <div class="card-header">
+              <img src="svg/sunset.svg" alt="">
+              <h3>Sunset</h3>
+            </div>
+            <div class="Contex">
+              <h1 id="Sunset"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="forecast-table">
+      <h1 class="gsapTitle">Day Forecast</h1>
+      <div class="table">
+
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th></th>
+              <th>Temperature</th>
+              <th>Min | Max</th>
+              <th>Description</th>
+              <th></th>
+              <th>Degree</th>
+              <th>Speed</th>
+              <th>Gust</th>
+              <th>Humidity</th>
+            </tr>
+          </thead>
+          <tbody class="table-detail">
+            <tr>
+              <td class="date">22-02-2024</td>
+              <td class="time">12:00</td>
+              <td class="mainIcon"><img src="./svg/overcast-night-fog.svg" alt="" class="MainWeatherIcon"></td>
+              <td class="temp">23</td>
+              <td class="minMax"> <img src="svg/pressure-high.svg" alt="">22/ <img src="svg/pressure-low.svg" alt="">13
+              </td>
+              <td class="des">light rain</td>
+              <td class="windIcon">
+                <div class="degreeSet" style="transform: rotate(260deg);max-height: 28px;width: 30px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M8.037 9.858a.5.5 0 0 0-.68.243l-4.193 9.402c-.667 1.496.815 3.047 2.202 2.306l5.904-3.152c.46-.245 1-.245 1.459 0l5.904 3.152c1.387.741 2.869-.81 2.202-2.306l-1.572-3.524a2 2 0 0 0-.932-.975z">
+                    </path>
+                    <path fill="currentColor"
+                      d="M8.61 8.467a.5.5 0 0 1-.234-.65l2.151-4.823c.59-1.324 2.355-1.324 2.945 0l3.968 8.898a.5.5 0 0 1-.68.65z"
+                      opacity="0.5"></path>
+                  </svg>
+                </div>
+              </td>
+              <td class="Deg">301</td>
+              <td class="speed">7.09</td>
+              <td class="gust">9.19</td>
+              <td class="huminity">22</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <section class="LinkSection" id="link">
+      <h1 class="SectionTitle gsapTitle">Quick Links</h1>
+      <div class="linkCardSection">
+        <a href="#" class="linkCard">
+          <img src="" alt="">
+          <div class="box-shadow"></div>
+          <div class="linkDetail">
+            <h1></h1>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </section>
+
+
+
+  <script src="./js/app.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/gsap.js"></script>
+</body>
+
+</html>

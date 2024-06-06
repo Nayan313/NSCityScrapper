@@ -1,0 +1,1438 @@
+{
+    "count": 1820,
+    "mapPageFields": {
+        "boundingBox": {
+            "swLat": 24.9617524111399,
+            "swLon": 55.0220739841461,
+            "neLon": 55.7183483117676,
+            "neLat": 25.4375808854668
+        },
+        "propertyAnnotations": [
+            {
+                "latitude": 25.2462521014546,
+                "longitude": 55.2553939819336
+            },
+            {
+                "longitude": 55.2903966104718,
+                "latitude": 25.2279422427298
+            },
+            {
+                "latitude": 25.075388,
+                "longitude": 55.139031
+            },
+            {
+                "latitude": 25.139982,
+                "longitude": 55.142548
+            },
+            {
+                "longitude": 55.3240048885345,
+                "latitude": 25.2338819136936
+            },
+            {
+                "latitude": 25.078549124609,
+                "longitude": 55.1342466473579
+            },
+            {
+                "longitude": 55.1410205662251,
+                "latitude": 25.1102699025619
+            },
+            {
+                "longitude": 55.2714335918427,
+                "latitude": 25.1869838253295
+            },
+            {
+                "longitude": 55.2779969573021,
+                "latitude": 25.2027157239007
+            },
+            {
+                "longitude": 55.1656178572388,
+                "latitude": 25.0977201786039
+            },
+            {
+                "longitude": 55.3169131278992,
+                "latitude": 25.2689636676708
+            },
+            {
+                "longitude": 55.2797667123377,
+                "latitude": 25.187962123066
+            },
+            {
+                "latitude": 25.1921055624497,
+                "longitude": 55.2806801779099
+            },
+            {
+                "longitude": 55.2904006181233,
+                "latitude": 25.227989200628
+            },
+            {
+                "latitude": 25.0738749648346,
+                "longitude": 55.1305854320526
+            },
+            {
+                "latitude": 25.0830724918637,
+                "longitude": 55.1382833719254
+            },
+            {
+                "longitude": 55.14157322,
+                "latitude": 25.0606917
+            },
+            {
+                "latitude": 25.2110372149064,
+                "longitude": 55.3157222270966
+            },
+            {
+                "latitude": 25.1122653270938,
+                "longitude": 55.1377018669154
+            },
+            {
+                "longitude": 55.2772969007492,
+                "latitude": 25.1996723769097
+            }
+        ]
+    },
+    "results": [
+        {
+            "id": 2106709,
+            "name": "Nikki Beach Resort & Spa Dubai",
+            "mainPhotoId": 531626965,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/531626965.jpg?k=b9712621de82304eaf4d4bc66672a18024bfbbd1b22d5cd14aa828a7b9223c27&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/531626965.jpg?k=b9712621de82304eaf4d4bc66672a18024bfbbd1b22d5cd14aa828a7b9223c27&o="
+            ],
+            "position": 0,
+            "rankingPosition": 0,
+            "countryCode": "ae",
+            "latitude": 25.2462521014546,
+            "longitude": 55.2553939819336,
+            "priceBreakdown": {
+                "benefitBadges": [],
+                "excludedPrice": {
+                    "value": 9636.40795007205,
+                    "currency": "INR"
+                },
+                "taxExceptions": [],
+                "grossPrice": {
+                    "value": 40813.0219061875,
+                    "currency": "INR"
+                }
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 9.1,
+            "reviewScoreWord": "Superb",
+            "reviewCount": 1890,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "propertyId": 2106709,
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai"
+            },
+            "propertyType": "Nikki Beach Resort & Spa Dubai",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 1 bed"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 40,813‬",
+                "taxInfo": "+Rs. 9,636 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 10252733,
+            "name": "One&Only One Za'abeel",
+            "mainPhotoId": 546843825,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/546843825.jpg?k=fb0ad88c46dcea803182696f1d98d9f77533f022358aeb30d0d780217162b46c&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/546843825.jpg?k=fb0ad88c46dcea803182696f1d98d9f77533f022358aeb30d0d780217162b46c&o="
+            ],
+            "position": 1,
+            "rankingPosition": 1,
+            "countryCode": "ae",
+            "latitude": 25.2279422427298,
+            "longitude": 55.2903966104718,
+            "priceBreakdown": {
+                "benefitBadges": [],
+                "taxExceptions": [],
+                "grossPrice": {
+                    "value": 49655.8433191948,
+                    "currency": "INR"
+                },
+                "excludedPrice": {
+                    "value": 11626.0427679987,
+                    "currency": "INR"
+                }
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "00:00",
+                "fromTime": "15:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 9,
+            "reviewScoreWord": "Superb",
+            "reviewCount": 101,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 1,
+            "wishlistToggle": {
+                "wishlistName": "Dubai",
+                "destinationId": "city::-782831",
+                "propertyId": 10252733
+            },
+            "propertyType": "One&Only One Za'abeel",
+            "proposedAccommodation": [
+                "2 beds"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 49,656‬",
+                "taxInfo": "+Rs. 11,626 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation"
+            ]
+        },
+        {
+            "id": 5729977,
+            "name": "Crowne Plaza Dubai Marina, an IHG Hotel",
+            "mainPhotoId": 394320074,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/394320074.jpg?k=b7c02417f3577bf2210093fbb0afc5df0cb24a06fd061606b7f39a24023a48d1&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/394320074.jpg?k=b7c02417f3577bf2210093fbb0afc5df0cb24a06fd061606b7f39a24023a48d1&o="
+            ],
+            "position": 2,
+            "rankingPosition": 2,
+            "countryCode": "ae",
+            "latitude": 25.075388,
+            "longitude": 55.139031,
+            "priceBreakdown": {
+                "taxExceptions": [],
+                "grossPrice": {
+                    "currency": "INR",
+                    "value": 6756.82251557993
+                },
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 1973.76308718535
+                },
+                "benefitBadges": []
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "18:00",
+                "fromTime": "15:00"
+            },
+            "checkout": {
+                "fromTime": "04:00",
+                "untilTime": "11:30"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.9,
+            "reviewScoreWord": "Fabulous",
+            "reviewCount": 3278,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 1,
+            "wishlistToggle": {
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai",
+                "propertyId": 5729977
+            },
+            "propertyType": "Crowne Plaza Dubai Marina, an IHG Hotel",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 1 bed"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 6,757‬",
+                "taxInfo": "+Rs. 1,974 taxes and charges"
+            },
+            "additionalLabels": []
+        },
+        {
+            "id": 2279194,
+            "name": "The Retreat Palm Dubai MGallery by Sofitel",
+            "mainPhotoId": 193733646,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/193733646.jpg?k=e26c68382e5a7f40ff827176797cff5446dc3218187bb1b855cd6901657995ac&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/193733646.jpg?k=e26c68382e5a7f40ff827176797cff5446dc3218187bb1b855cd6901657995ac&o="
+            ],
+            "position": 3,
+            "rankingPosition": 3,
+            "countryCode": "ae",
+            "latitude": 25.139982,
+            "longitude": 55.142548,
+            "priceBreakdown": {
+                "strikethroughPrice": {
+                    "value": 22107.0535325182,
+                    "currency": "INR"
+                },
+                "excludedPrice": {
+                    "value": 4432.74765703314,
+                    "currency": "INR"
+                },
+                "grossPrice": {
+                    "value": 17685.6428260146,
+                    "currency": "INR"
+                },
+                "taxExceptions": [],
+                "benefitBadges": [
+                    {
+                        "text": "Getaway Deal",
+                        "explanation": "Getaway Deal",
+                        "variant": "constructive",
+                        "identifier": "Getaway 2021 Deals"
+                    }
+                ]
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "20:30"
+            },
+            "checkout": {
+                "untilTime": "12:00",
+                "fromTime": "07:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.2,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 6574,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "wishlistName": "Dubai",
+                "destinationId": "city::-782831",
+                "propertyId": 2279194
+            },
+            "propertyType": "The Retreat Palm Dubai MGallery by Sofitel",
+            "proposedAccommodation": [
+                "Private suite – 75 m²",
+                ": 2 beds • 1 bedroom • 1 living room • 2 bathrooms"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 22,107 ‬",
+                "gross": "‎Rs. 17,686‬",
+                "taxInfo": "+Rs. 4,433 taxes and charges"
+            },
+            "additionalLabels": []
+        },
+        {
+            "id": 1374533,
+            "name": "Hyatt Regency Creek Heights Residences",
+            "mainPhotoId": 105701466,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/105701466.jpg?k=2b2d39cbfa04972f28211ef7de568c6a5a2f8fd597d078cc889a6b55ecc61900&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/105701466.jpg?k=2b2d39cbfa04972f28211ef7de568c6a5a2f8fd597d078cc889a6b55ecc61900&o="
+            ],
+            "position": 4,
+            "rankingPosition": 4,
+            "countryCode": "ae",
+            "latitude": 25.2338819136936,
+            "longitude": 55.3240048885345,
+            "priceBreakdown": {
+                "excludedPrice": {
+                    "value": 1823.55982962005,
+                    "currency": "INR"
+                },
+                "strikethroughPrice": {
+                    "currency": "INR",
+                    "value": 10634.0595966677
+                },
+                "taxExceptions": [],
+                "grossPrice": {
+                    "value": 9570.65363700097,
+                    "currency": "INR"
+                },
+                "benefitBadges": [
+                    {
+                        "text": "Mobile-only price",
+                        "explanation": "Mobile-only price",
+                        "identifier": "Mobile Rate",
+                        "variant": "constructive"
+                    }
+                ]
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "19:00",
+                "fromTime": "15:00"
+            },
+            "checkout": {
+                "untilTime": "11:00",
+                "fromTime": "06:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.3,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 6717,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai",
+                "propertyId": 1374533
+            },
+            "propertyType": "Hyatt Regency Creek Heights Residences",
+            "proposedAccommodation": [
+                "Entire studio – 58 m²",
+                ": 2 beds • 1 bedroom • 1 bathroom"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 10,634 ‬",
+                "gross": "‎Rs. 9,571‬",
+                "taxInfo": "+Rs. 1,824 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 73449,
+            "name": "Hilton Dubai Jumeirah",
+            "mainPhotoId": 483735076,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/483735076.jpg?k=3ab553e0ea57c42c7993bf2b031eef57a8cf90e7190771186224277c4e282183&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/483735076.jpg?k=3ab553e0ea57c42c7993bf2b031eef57a8cf90e7190771186224277c4e282183&o="
+            ],
+            "position": 5,
+            "rankingPosition": 5,
+            "countryCode": "ae",
+            "latitude": 25.078549124609,
+            "longitude": 55.1342466473579,
+            "priceBreakdown": {
+                "benefitBadges": [
+                    {
+                        "variant": "constructive",
+                        "identifier": "Getaway 2021 Deals",
+                        "text": "Getaway Deal",
+                        "explanation": "Getaway Deal"
+                    }
+                ],
+                "grossPrice": {
+                    "currency": "INR",
+                    "value": 11563.6895400865
+                },
+                "taxExceptions": [],
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 3055.30816769931
+                }
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 4535,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 1,
+            "wishlistToggle": {
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai",
+                "propertyId": 73449
+            },
+            "propertyType": "Hilton Dubai Jumeirah",
+            "proposedAccommodation": [
+                "2 beds"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 11,564‬",
+                "taxInfo": "+Rs. 3,055 taxes and charges"
+            },
+            "additionalLabels": []
+        },
+        {
+            "id": 1500727,
+            "name": "Pullman Dubai Downtown",
+            "mainPhotoId": 531969862,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/531969862.jpg?k=b8b1caa15553bba6b9128db85c2ea70dd1857310240f612b86942f3864a49a9c&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/531969862.jpg?k=b8b1caa15553bba6b9128db85c2ea70dd1857310240f612b86942f3864a49a9c&o="
+            ],
+            "position": 7,
+            "rankingPosition": 7,
+            "countryCode": "ae",
+            "latitude": 25.1869838253295,
+            "longitude": 55.2714335918427,
+            "priceBreakdown": {
+                "benefitBadges": [
+                    {
+                        "variant": "constructive",
+                        "identifier": "Mobile Rate",
+                        "text": "Mobile-only price",
+                        "explanation": "Mobile-only price"
+                    }
+                ],
+                "grossPrice": {
+                    "value": 10203.2554765469,
+                    "currency": "INR"
+                },
+                "taxExceptions": [],
+                "strikethroughPrice": {
+                    "currency": "INR",
+                    "value": 11336.9505294965
+                },
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 2749.21050340291
+                }
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "00:00",
+                "fromTime": "14:00"
+            },
+            "checkout": {
+                "untilTime": "12:00",
+                "fromTime": "00:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.1,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 4409,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "propertyId": 1500727,
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai"
+            },
+            "propertyType": "Pullman Dubai Downtown",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 1 bed"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 11,337 ‬",
+                "gross": "‎Rs. 10,203‬",
+                "taxInfo": "+Rs. 2,749 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 67234,
+            "name": "Swissôtel Al Murooj Dubai",
+            "mainPhotoId": 451967975,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/451967975.jpg?k=d0391392591e0ae86831705fb8f2a5d7002730b62c396ac2e4e9773ba0dad2fc&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/451967975.jpg?k=d0391392591e0ae86831705fb8f2a5d7002730b62c396ac2e4e9773ba0dad2fc&o="
+            ],
+            "position": 8,
+            "rankingPosition": 8,
+            "countryCode": "ae",
+            "latitude": 25.2027157239007,
+            "longitude": 55.2779969573021,
+            "priceBreakdown": {
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 3171.05843260547
+                },
+                "strikethroughPrice": {
+                    "value": 14375.2532714016,
+                    "currency": "INR"
+                },
+                "taxExceptions": [],
+                "grossPrice": {
+                    "currency": "INR",
+                    "value": 10062.6772899811
+                },
+                "benefitBadges": []
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.2,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 11700,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai",
+                "propertyId": 67234
+            },
+            "propertyType": "Swissôtel Al Murooj Dubai",
+            "proposedAccommodation": [
+                "Entire apartment – 145 m²",
+                ": 3 beds • 2 bedrooms • 1 living room • 1 bathroom"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 14,375 ‬",
+                "gross": "‎Rs. 10,063‬",
+                "taxInfo": "+Rs. 3,171 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 3838930,
+            "name": "Grand Plaza Mövenpick",
+            "mainPhotoId": 271478677,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/271478677.jpg?k=04a9a81634b88122db3d3027273587c5a576de7c9dbdbdea850e422b67024fab&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/271478677.jpg?k=04a9a81634b88122db3d3027273587c5a576de7c9dbdbdea850e422b67024fab&o="
+            ],
+            "position": 9,
+            "rankingPosition": 9,
+            "countryCode": "ae",
+            "latitude": 25.0977201786039,
+            "longitude": 55.1656178572388,
+            "priceBreakdown": {
+                "excludedPrice": {
+                    "value": 6988.66315390813,
+                    "currency": "INR"
+                },
+                "taxExceptions": [],
+                "grossPrice": {
+                    "value": 29045.2672565701,
+                    "currency": "INR"
+                },
+                "benefitBadges": []
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "00:00",
+                "fromTime": "14:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 9,
+            "reviewScoreWord": "Superb",
+            "reviewCount": 3689,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "propertyId": 3838930,
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai"
+            },
+            "propertyType": "Grand Plaza Mövenpick",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 3 beds"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 29,045‬",
+                "taxInfo": "+Rs. 6,989 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 452354,
+            "name": "Swissôtel Al Ghurair Dubai",
+            "mainPhotoId": 260383407,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/260383407.jpg?k=0a2e44a85e1ca095cb18643bd5c69c962e1fffe8c9254d3e05a127d3dfd33bc0&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/260383407.jpg?k=0a2e44a85e1ca095cb18643bd5c69c962e1fffe8c9254d3e05a127d3dfd33bc0&o="
+            ],
+            "position": 10,
+            "rankingPosition": 10,
+            "countryCode": "ae",
+            "latitude": 25.2689636676708,
+            "longitude": 55.3169131278992,
+            "priceBreakdown": {
+                "grossPrice": {
+                    "currency": "INR",
+                    "value": 5713.82306686625
+                },
+                "taxExceptions": [],
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 1739.08821122477
+                },
+                "benefitBadges": []
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "00:00",
+                "fromTime": "15:00"
+            },
+            "checkout": {
+                "fromTime": "12:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.1,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 8164,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai",
+                "propertyId": 452354
+            },
+            "propertyType": "Swissôtel Al Ghurair Dubai",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 3 beds"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 5,714‬",
+                "taxInfo": "+Rs. 1,739 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 2572650,
+            "name": "DAMAC Maison Distinction",
+            "mainPhotoId": 107416648,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/107416648.jpg?k=eccd1b9f251a01ba4106d285310fc3726e6a59f411f6b4319f55764ca275c2c4&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/107416648.jpg?k=eccd1b9f251a01ba4106d285310fc3726e6a59f411f6b4319f55764ca275c2c4&o="
+            ],
+            "position": 11,
+            "rankingPosition": 11,
+            "countryCode": "ae",
+            "latitude": 25.187962123066,
+            "longitude": 55.2797667123377,
+            "priceBreakdown": {
+                "strikethroughPrice": {
+                    "value": 25576.1603945442,
+                    "currency": "INR"
+                },
+                "excludedPrice": {
+                    "value": 5510.66491337767,
+                    "currency": "INR"
+                },
+                "grossPrice": {
+                    "value": 20460.9283156353,
+                    "currency": "INR"
+                },
+                "taxExceptions": [],
+                "benefitBadges": [
+                    {
+                        "variant": "constructive",
+                        "identifier": "Getaway 2021 Deals",
+                        "text": "Getaway Deal",
+                        "explanation": "Getaway Deal"
+                    }
+                ]
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "untilTime": "12:00",
+                "fromTime": "06:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.9,
+            "reviewScoreWord": "Fabulous",
+            "reviewCount": 4822,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "propertyId": 2572650,
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai"
+            },
+            "propertyType": "DAMAC Maison Distinction",
+            "proposedAccommodation": [
+                "Entire apartment – 90 m²",
+                ": 3 beds • 2 bedrooms • 1 living room • 2 bathrooms"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 25,576 ‬",
+                "gross": "‎Rs. 20,461‬",
+                "taxInfo": "+Rs. 5,511 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 7926217,
+            "name": "The Dubai EDITION",
+            "mainPhotoId": 524837438,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/524837438.jpg?k=1cdce3650f851cd5bff5f35b3b66fb4b4d65a8bee9467a66acec9282df63caeb&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/524837438.jpg?k=1cdce3650f851cd5bff5f35b3b66fb4b4d65a8bee9467a66acec9282df63caeb&o="
+            ],
+            "position": 12,
+            "rankingPosition": 12,
+            "countryCode": "ae",
+            "latitude": 25.1921055624497,
+            "longitude": 55.2806801779099,
+            "priceBreakdown": {
+                "benefitBadges": [],
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 5478.5813433792
+                },
+                "grossPrice": {
+                    "value": 22333.7925431082,
+                    "currency": "INR"
+                },
+                "taxExceptions": []
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 9,
+            "reviewScoreWord": "Superb",
+            "reviewCount": 3039,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 1,
+            "wishlistToggle": {
+                "propertyId": 7926217,
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai"
+            },
+            "propertyType": "The Dubai EDITION",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 2 beds"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 22,334‬",
+                "taxInfo": "+Rs. 5,479 taxes and charges"
+            },
+            "additionalLabels": []
+        },
+        {
+            "id": 10556570,
+            "name": "SIRO One Za'abeel",
+            "mainPhotoId": 555387779,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/555387779.jpg?k=de68b9286ce410ccb94c4fd556d945f718cd4a28485d42a3a48bfc92acda48dc&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/555387779.jpg?k=de68b9286ce410ccb94c4fd556d945f718cd4a28485d42a3a48bfc92acda48dc&o="
+            ],
+            "position": 13,
+            "rankingPosition": 13,
+            "countryCode": "ae",
+            "latitude": 25.227989200628,
+            "longitude": 55.2904006181233,
+            "priceBreakdown": {
+                "grossPrice": {
+                    "currency": "INR",
+                    "value": 30451.0491222277
+                },
+                "taxExceptions": [],
+                "strikethroughPrice": {
+                    "value": 35824.763673209,
+                    "currency": "INR"
+                },
+                "excludedPrice": {
+                    "value": 7304.96407368109,
+                    "currency": "INR"
+                },
+                "benefitBadges": []
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "00:00",
+                "fromTime": "15:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.9,
+            "reviewScoreWord": "Fabulous",
+            "reviewCount": 39,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 1,
+            "wishlistToggle": {
+                "propertyId": 10556570,
+                "wishlistName": "Dubai",
+                "destinationId": "city::-782831"
+            },
+            "propertyType": "SIRO One Za'abeel",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 2 beds"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 35,825 ‬",
+                "gross": "‎Rs. 30,451‬",
+                "taxInfo": "+Rs. 7,305 taxes and charges"
+            },
+            "additionalLabels": []
+        },
+        {
+            "id": 69369,
+            "name": "Amwaj Rotana, Jumeirah Beach - Dubai",
+            "mainPhotoId": 336308709,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/336308709.jpg?k=835bf8ed8a5bb01ec5f4aabf1b0c1682fb56e4c1c1d3929570e6bb6c3218279b&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/336308709.jpg?k=835bf8ed8a5bb01ec5f4aabf1b0c1682fb56e4c1c1d3929570e6bb6c3218279b&o="
+            ],
+            "position": 14,
+            "rankingPosition": 14,
+            "countryCode": "ae",
+            "latitude": 25.0738749648346,
+            "longitude": 55.1305854320526,
+            "priceBreakdown": {
+                "benefitBadges": [],
+                "taxExceptions": [],
+                "grossPrice": {
+                    "value": 9182.92992889218,
+                    "currency": "INR"
+                },
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 2519.6372551806
+                }
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "14:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "untilTime": "12:00",
+                "fromTime": "00:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.4,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 4957,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "propertyId": 69369,
+                "wishlistName": "Dubai",
+                "destinationId": "city::-782831"
+            },
+            "propertyType": "Amwaj Rotana, Jumeirah Beach - Dubai",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 1 bed"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 9,183‬",
+                "taxInfo": "+Rs. 2,520 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 77799,
+            "name": "The Ritz-Carlton, Dubai",
+            "mainPhotoId": 465556449,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/465556449.jpg?k=1f6a3e2097eeedd9139753295e273f93448504d181f20859dc959d3fb47c871e&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/465556449.jpg?k=1f6a3e2097eeedd9139753295e273f93448504d181f20859dc959d3fb47c871e&o="
+            ],
+            "position": 15,
+            "rankingPosition": 15,
+            "countryCode": "ae",
+            "latitude": 25.0830724918637,
+            "longitude": 55.1382833719254,
+            "priceBreakdown": {
+                "benefitBadges": [],
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 9075.22889886197
+                },
+                "grossPrice": {
+                    "currency": "INR",
+                    "value": 38318.8927896983
+                },
+                "taxExceptions": []
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 9,
+            "reviewScoreWord": "Superb",
+            "reviewCount": 1492,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "propertyId": 77799,
+                "wishlistName": "Dubai",
+                "destinationId": "city::-782831"
+            },
+            "propertyType": "The Ritz-Carlton, Dubai",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 2 beds"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 38,319‬",
+                "taxInfo": "+Rs. 9,075 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 9526700,
+            "name": "SO/ Uptown Dubai",
+            "mainPhotoId": 498422252,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/498422252.jpg?k=e4f2744a78ec742d5d2efcb83b4c385c487bb692bdd5b7462915e5b22786fe5c&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/498422252.jpg?k=e4f2744a78ec742d5d2efcb83b4c385c487bb692bdd5b7462915e5b22786fe5c&o="
+            ],
+            "position": 16,
+            "rankingPosition": 16,
+            "countryCode": "ae",
+            "latitude": 25.0606917,
+            "longitude": 55.14157322,
+            "priceBreakdown": {
+                "excludedPrice": {
+                    "value": 4168.4323239132,
+                    "currency": "INR"
+                },
+                "strikethroughPrice": {
+                    "currency": "INR",
+                    "value": 18345.4533468313
+                },
+                "taxExceptions": [],
+                "grossPrice": {
+                    "value": 16510.9080121481,
+                    "currency": "INR"
+                },
+                "benefitBadges": [
+                    {
+                        "text": "Mobile-only price",
+                        "explanation": "Mobile-only price",
+                        "identifier": "Mobile Rate",
+                        "variant": "constructive"
+                    }
+                ]
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 9.1,
+            "reviewScoreWord": "Superb",
+            "reviewCount": 1146,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "propertyId": 9526700,
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai"
+            },
+            "propertyType": "SO/ Uptown Dubai",
+            "proposedAccommodation": [
+                "Private suite",
+                ": 1 bed"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 18,345 ‬",
+                "gross": "‎Rs. 16,511‬",
+                "taxInfo": "+Rs. 4,168 taxes and charges"
+            },
+            "additionalLabels": []
+        },
+        {
+            "id": 877948,
+            "name": "Marriott Executive Apartments Al Jaddaf, Dubai",
+            "mainPhotoId": 555890238,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/555890238.jpg?k=b48441d15c0a34574c722569fcceb0aa7069becf67ef66be56213e96a04789cc&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/555890238.jpg?k=b48441d15c0a34574c722569fcceb0aa7069becf67ef66be56213e96a04789cc&o="
+            ],
+            "position": 17,
+            "rankingPosition": 17,
+            "countryCode": "ae",
+            "latitude": 25.2110372149064,
+            "longitude": 55.3157222270966,
+            "priceBreakdown": {
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 2494.12911648924
+                },
+                "grossPrice": {
+                    "value": 9069.56042359722,
+                    "currency": "INR"
+                },
+                "taxExceptions": [],
+                "benefitBadges": []
+            },
+            "currency": "AED",
+            "checkin": {
+                "fromTime": "15:00",
+                "untilTime": "00:00"
+            },
+            "checkout": {
+                "untilTime": "12:00",
+                "fromTime": "00:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.5,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 768,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 1,
+            "wishlistToggle": {
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai",
+                "propertyId": 877948
+            },
+            "propertyType": "Marriott Executive Apartments Al Jaddaf, Dubai",
+            "proposedAccommodation": [
+                "Entire apartment – 75 m²",
+                ": 1 bed • 1 bedroom • 1 bathroom"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": null,
+                "gross": "‎Rs. 9,070‬",
+                "taxInfo": "+Rs. 2,494 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 2233644,
+            "name": "Dukes The Palm, a Royal Hideaway Hotel",
+            "mainPhotoId": 206013993,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/206013993.jpg?k=f064bda1bf03f540a83492d4f53328d46defd89acfc177f69db9b6f29e505c09&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/206013993.jpg?k=f064bda1bf03f540a83492d4f53328d46defd89acfc177f69db9b6f29e505c09&o="
+            ],
+            "position": 18,
+            "rankingPosition": 18,
+            "countryCode": "ae",
+            "latitude": 25.1122653270938,
+            "longitude": 55.1377018669154,
+            "priceBreakdown": {
+                "benefitBadges": [
+                    {
+                        "identifier": "Getaway 2021 Deals",
+                        "variant": "constructive",
+                        "explanation": "Getaway Deal",
+                        "text": "Getaway Deal"
+                    }
+                ],
+                "excludedPrice": {
+                    "currency": "INR",
+                    "value": 4126.64999273674
+                },
+                "strikethroughPrice": {
+                    "currency": "INR",
+                    "value": 20406.5109530937
+                },
+                "taxExceptions": [],
+                "grossPrice": {
+                    "value": 16325.208762475,
+                    "currency": "INR"
+                }
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "00:00",
+                "fromTime": "15:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 8.4,
+            "reviewScoreWord": "Very good",
+            "reviewCount": 6156,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 0,
+            "wishlistToggle": {
+                "propertyId": 2233644,
+                "wishlistName": "Dubai",
+                "destinationId": "city::-782831"
+            },
+            "propertyType": "Dukes The Palm, a Royal Hideaway Hotel",
+            "proposedAccommodation": [
+                "Hotel room",
+                ": 1 bed"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 20,407 ‬",
+                "gross": "‎Rs. 16,325‬",
+                "taxInfo": "+Rs. 4,127 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        },
+        {
+            "id": 183426,
+            "name": "Kempinski Central Avenue Dubai",
+            "mainPhotoId": 543821630,
+            "photoMainUrl": "https://cf.bstatic.com/xdata/images/hotel/400x800/543821630.jpg?k=8abb1262bc8bcc3944b814847f3222ea8db6dc451e4f31b437a6f55d0d072226&o=",
+            "photoUrls": [
+                "https://cf.bstatic.com/xdata/images/hotel/square60/543821630.jpg?k=8abb1262bc8bcc3944b814847f3222ea8db6dc451e4f31b437a6f55d0d072226&o="
+            ],
+            "position": 19,
+            "rankingPosition": 19,
+            "countryCode": "ae",
+            "latitude": 25.1996723769097,
+            "longitude": 55.2772969007492,
+            "priceBreakdown": {
+                "benefitBadges": [
+                    {
+                        "variant": "constructive",
+                        "identifier": "Mobile Rate",
+                        "text": "Mobile-only price",
+                        "explanation": "Mobile-only price"
+                    }
+                ],
+                "grossPrice": {
+                    "currency": "INR",
+                    "value": 29569.0343710328
+                },
+                "taxExceptions": [],
+                "strikethroughPrice": {
+                    "value": 32854.4826344809,
+                    "currency": "INR"
+                },
+                "excludedPrice": {
+                    "value": 7106.51075466225,
+                    "currency": "INR"
+                }
+            },
+            "currency": "AED",
+            "checkin": {
+                "untilTime": "00:00",
+                "fromTime": "15:00"
+            },
+            "checkout": {
+                "fromTime": "00:00",
+                "untilTime": "12:00"
+            },
+            "checkoutDate": "2024-05-27",
+            "checkinDate": "2024-05-26",
+            "reviewScore": 9.4,
+            "reviewScoreWord": "Superb",
+            "reviewCount": 5393,
+            "qualityClass": 0,
+            "isFirstPage": true,
+            "accuratePropertyClass": 5,
+            "propertyClass": 5,
+            "ufi": -782831,
+            "wishlistName": "Dubai",
+            "optOutFromGalleryChanges": 1,
+            "wishlistToggle": {
+                "propertyId": 183426,
+                "destinationId": "city::-782831",
+                "wishlistName": "Dubai"
+            },
+            "propertyType": "Kempinski Central Avenue Dubai",
+            "proposedAccommodation": [
+                "1 bed"
+            ],
+            "priceDetails": {
+                "info": "Price for 1 night,\n1 adult, 2 children",
+                "strikethrough": "‎Rs. 32,854 ‬",
+                "gross": "‎Rs. 29,569‬",
+                "taxInfo": "+Rs. 7,107 taxes and charges"
+            },
+            "additionalLabels": [
+                "Free cancellation",
+                "No prepayment needed"
+            ]
+        }
+    ]
+}
