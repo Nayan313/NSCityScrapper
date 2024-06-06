@@ -26,7 +26,7 @@ one city at a time, with NSCityExplore
 
 ## Tech Stack
 - Frontend: HTML, CSS, JavaScript
-- APIs: Google Places, Pexels, Wikipedia, Bing Maps, OpenWeatherMap, NewsData, YouTube, Booking.com
+- APIs: Geo Names, Pexels, Wikipedia, Bing Maps, OpenWeatherMap, NewsData, YouTube, Booking.com
 
 ## API References
 - [Geo Names API](https://www.geonames.org/)
